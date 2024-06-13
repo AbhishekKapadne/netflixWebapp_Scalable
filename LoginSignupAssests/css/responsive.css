@@ -1,0 +1,218 @@
+@media screen and (max-width: 767px) {
+	.main-word-page {
+		align-items: flex-start;
+	}
+
+	.word-login-page.login-block {
+		padding: 0 15px;
+	}
+
+	.word-login-page .sign-in-form.container {
+		width: 100%;
+		height: auto;
+	}
+
+	.w-300 {
+		width: 100%;
+
+	}
+
+	.word-login-page.login-block {
+		width: 100%;
+	}
+
+	.word-login-page .login-sec {
+		padding: 20px;
+	}
+
+	.logo-iamge {
+		padding: 30px 0;
+	}
+
+	.logo-iamge img {
+		width: 150px;
+	}
+
+	/* radio for organize */
+	.radio-tab label {
+
+		margin: 5px 5px;
+		font-size: 12px;
+	}
+
+	.radio-tab .form-check-right {
+		margin-right: 7px;
+	}
+
+	.radio-tab .form-input-radio {
+
+		padding: 5px 30px;
+		width: auto;
+	}
+
+	.radio-tab .form-check-input {
+		height: 20px;
+		width: 20px;
+	}
+
+	.navabar-side {
+		padding: 0 30px;
+	}
+
+	/* profile  */
+	.dashboard-space {
+		padding:  0;
+		background: #F7F8FA;
+	}
+
+	.master-head {
+		padding: 25px 0;
+	}
+
+	.useradio .radio-tab label {
+		font-size: 13px;
+	}
+
+	.cardInfo .card-header {
+		padding: 1.5rem 1rem 0;
+	}
+
+	.cardInfo .card-body {
+		padding: 0 1rem;
+	}
+
+	.cardInfo .card-footer {
+		padding: 1rem;
+	}
+
+	.signupFormMainDiv .form-check-input {
+		position: relative;
+		top: 0px;
+	}
+
+	.PayNow {
+		margin-bottom: 25px;
+	}
+
+	.btnpay {
+		display: flex;
+	}
+
+	.PayNow,
+	.PayNow:hover,
+	.Cancel,
+	.Cancel:hover {
+
+		width: auto;
+		margin: 0 5px;
+		padding: 10px 29px;
+	}
+
+	.master-head h4{
+		margin-top: 10px;
+	}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+	.main-word-page {
+		align-items: flex-start;
+	}
+
+	.word-login-page.login-block {
+		width: 100%;
+	}
+
+	.logo-iamge {
+		padding: 30px 0;
+	}
+
+	.logo-iamge img {
+		width: 150px;
+	}
+
+	.cardfootercall {
+		justify-content: flex-start;
+		display: flex;
+	}
+	.dashboard-space{
+		padding: 0;
+	}
+	.master-head h4 {
+		margin-top: 10px;
+	}
+	
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/* credit card */
+	.card-Credit {
+		margin-top: 0;
+		height: 100%;
+	}
+
+	.master-head {
+		padding: 25px 0;
+	}
+
+	.cardInfo .card-footer {
+		border-bottom-left-radius: 13px;
+		border-bottom-right-radius: 13px;
+		padding: 1rem 2rem 1rem 2rem;
+	}
+
+	.icon-down {
+		margin: 0 0;
+	}
+
+	.currncy {
+		margin: 0;
+	}
+
+
+}
+
+/* @media only screen and (min-width: 991px) and (max-width: 1199px) {
+
+	.screen-laptop {
+		width: 33.66666667%;
+	}
+
+	.screen-laptop-1 {
+		width: 66.33333333%;
+	}
+
+} */
+
+@media screen and (max-width: 425px) {
+
+	.remember-me,
+	.forget-password {
+		font-size: 12px !important;
+	}
+
+	.remember-me {
+		padding-left: 10px !important;
+	}
+	
+	.word-login-page .remember-me{
+		margin-top: 7px;
+	}
+	.word-login-page .forget-password{
+		margin-top: 15px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.positionstiky {
+		position: sticky;
+	}
+
+	.cardfootercall {
+		justify-content: flex-start;
+		display: flex;
+	}
+}

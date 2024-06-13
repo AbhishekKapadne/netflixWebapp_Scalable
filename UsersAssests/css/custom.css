@@ -1,0 +1,1058 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: #141414;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@font-face {
+  font-family: 'LucidaHandwritingStd';
+  src: url('../font/LucidaHandwritingStdBold.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.topheader {
+  background: #060107;
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  min-height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.topheader p {
+  margin-bottom: 0;
+  color: rgb(229, 9, 20);
+  text-align: center;
+}
+
+.topheader span {
+  color: #fff;
+  font-family: 'LucidaHandwritingStd';
+}
+
+.topheader.pink {
+  background: rgb(229, 9, 20);
+}
+
+.topheader.pink p {
+  color: #000;
+}
+
+.topheader.pink span {
+  color: #000;
+}
+
+
+nav.navbar.navbar-expand-lg.navbar-hover.fixed-top.header.navbar-dark {
+  background: #141414;
+}
+
+.header.navbar-scroll {
+  background-color: #060107;
+}
+
+.bg-060107 {
+  background-color: #060107;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.search-icon:focus,
+.search-icon:hover {
+  color: #fff !important;
+}
+
+.sectional-heading {
+  color: #fff;
+}
+
+.section-padding {
+  padding: 20px 10px;
+}
+
+.sectional-padding {
+  padding: 20px 0;
+}
+
+.sectional-padding-2 {
+  padding: 131px 0 0px;
+}
+
+.logo-color img,
+.logo-white img {
+  height: 66px !important;
+}
+
+.nav-link.active {
+  color: #fff !important;
+  font-weight: 600;
+  border-bottom: 3px solid #fff;
+  border-radius: 3px;
+}
+
+/* .p-relative{
+  position: relative;
+} */
+
+.movie-page-images {
+  padding: 0;
+}
+
+.movie-page-images img {
+  width: 190px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+.header {
+  padding: 20px 0;
+}
+
+.nav-link.tx-AFAFAF {
+  font-weight: 600;
+}
+
+.tx-AFAFAF {
+  color: #AFAFAF !important;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.movie-headings {
+  padding: 0;
+  margin: auto 0;
+}
+
+.movie-headings .sectional-heading {
+  font-size: 18px;
+  font-weight: 900;
+  /*text-decoration: underline;*/
+}
+
+.nav-box {
+  background: rgb(229, 9, 20);
+  padding: 11px 0;
+  border-radius: 9px;
+  text-align: center;
+  font-weight: 900;
+  width: 100px;
+  height: 44px;
+  font-size: 16px;
+}
+
+.nav-box .nav-link:hover {
+  color: #fff !important;
+}
+
+.container-padding {
+  padding: 0 2rem;
+}
+
+.container-padding2 {
+  padding: 0 2rem;
+}
+
+.w-550 {
+  width: 100%;
+  /*height: fit-content;*/
+  /* min-height: 300px; */
+  /*min-height: 100%;*/
+}
+
+.sectional-heading .fa-angle-right {
+  font-size: 22px;
+}
+
+
+.movie-headings .section-name {
+  margin: auto 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: 40% !important;
+}
+
+.swiper-button-next.heading-nav:after,
+.swiper-button-prev.heading-nav:after {
+  font-size: 18px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background: #afafaf !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: rgb(229, 9, 20) !important;
+  border-radius: 6px;
+  width: 30px !important;
+}
+
+.movie-card-banner {
+  padding-top: 22px;
+  /*height: 430px !important;*/
+}
+
+.movie-card {
+  padding-top: 22px;
+  height: auto;
+}
+
+.movie-card img {
+  border-radius: 10px !important;
+}
+
+.movie-slide-mobile .movie-card:hover {
+  transform: scale(1.1);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+  margin: 0 auto;
+}
+
+.banner-hover {
+  bottom: 6rem;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 30px !important;
+}
+
+
+.banner-hover h3 {
+  font-weight: 900;
+  font-size: 30px;
+  color: #fff;
+}
+
+.banner-hover h5 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #AFAFAF;
+}
+
+.movie-page-images .on-hover {
+  bottom: 1.2rem;
+}
+
+.movie-page-images .movie-card:hover {
+  margin: 0;
+  width: 190px;
+}
+
+
+.on-hover {
+  bottom: 0rem;
+  padding-left: 20px;
+  position: absolute;
+  margin: 0 auto;
+  visibility: hidden;
+  /* top: 0; */
+  border-radius: 10px;
+  height: 89.5%;
+  width: 100%;
+}
+
+.on-hover h4 {
+  font-weight: 900;
+  font-size: 20px;
+  color: #fff;
+}
+
+.on-hover h6 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #D1D1D1;
+}
+
+.on-hover p a {
+  font-weight: 500;
+  font-size: 12px;
+  color: #D1D1D1;
+}
+
+.innar-hover {
+  position: absolute;
+  bottom: 0;
+}
+
+.movie-card:hover .on-hover {
+  visibility: visible;
+  background-color: #00000088;
+  width: -webkit-fill-available;
+}
+
+#movie-slider1 img {
+  min-height: 100%;
+}
+
+.movie-banner img {
+  min-height: 400px;
+}
+
+.view-btn {
+  float: right;
+  text-decoration: none;
+}
+
+.view-btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #fff !important;
+  font-size: 28px !important;
+  font-weight: 800;
+}
+
+footer .terms-link {
+  color: #afafaf;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.social-media-reel i {
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  background-color: #3a2a3f;
+  color: #fff;
+  margin: 0 8px;
+  border-radius: 50%;
+  font-size: 17px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.social-media-reel:hover {
+  text-decoration: none;
+}
+
+.drop-head {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  margin: auto;
+}
+
+.dropdown.filter {
+  margin-left: 15px;
+}
+
+.dropdown.filter .btn {
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0);
+}
+
+.dropdown.filter input[type=checkbox] {
+  margin-right: 10px;
+}
+
+.dropdown.filter .btn {
+  background-color: #3A2A3F;
+  color: #fff;
+  font-size: 16px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  background-color: #3A2A3F;
+
+}
+
+.dropdown-item {
+  color: #fff !important;
+  font-size: 16px;
+  padding: 0.25rem 10px;
+}
+
+.dropdown-item:hover {
+  color: #ffffff00;
+  text-decoration: none;
+  background-color: #06010700;
+}
+
+.lh-1 {
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+p.code-data {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+p.code-profile {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+p.code-deatils {
+  color: #AFAFAF;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+p.code-deatils span {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+.inner-padding {
+  background-color: #3A2A3F;
+  padding: 15px;
+  margin-top: 24px;
+  border-radius: 5px;
+}
+
+.user-profile-image {
+  max-width: 64px;
+}
+
+a.code-span {
+  font-weight: 900;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.review-section {
+  border-radius: 5px;
+  background: linear-gradient(to right, #1F0A49E6, #1F0A49E6), url(../images/Reel-Martini/img_detail_2.1.png) center no-repeat;
+  /* background-position: top; */
+  background-size: cover;
+  /* margin: 0 34px; */
+}
+
+
+
+.movie-review-image img {
+  max-width: 100%;
+}
+
+h2.movie-name-review {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 800;
+}
+
+p.movie-year {
+  color: #AFAFAF;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+p.movie-realsedate {
+  color: #AFAFAF;
+  font-weight: 600;
+  font-size: 14px;
+  float: right;
+}
+
+p.movie-realsedate span {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+p.movie-watchtrailer {
+  color: #ffffff;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.review-section .social-media-reel i {
+  margin: 0 7px;
+}
+
+h4.movie-overview {
+  color: #AFAFAF;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 1.5rem;
+  padding-left: 5px;
+}
+
+p.movie-overview-2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+p.movie-rent {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.movie-border {
+  border: 1px solid #ffffff !important;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-left: 4px;
+  width: 185px;
+}
+
+.filters p {
+  display: flex;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 12px;
+  margin-bottom: 0;
+}
+
+.filters p .fa-times {
+  margin-left: 10px !important;
+  margin: auto 0;
+  color: #fff;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .nav-link.active {
+    border-bottom: 0px solid #fff;
+  }
+
+  .movie-page-images img {
+    width: 203px;
+  }
+
+  p.code-deatils {
+    font-size: 11px;
+  }
+
+  p.movie-watchtrailer {
+    margin-bottom: 2px;
+    margin-left: 7px;
+    margin-top: 8px;
+  }
+
+  .section-padding {
+    padding: 36px 0px;
+  }
+
+  .movie-review-image {
+    padding: 0;
+  }
+
+  h4.movie-overview {
+    margin-top: 8px;
+  }
+
+  p.movie-realsedate {
+    float: left;
+  }
+
+  .review-section {
+    border-radius: 5px;
+    background: linear-gradient(to right, #1F0A49E6, #1F0A49E6);
+  }
+
+  div#navbarHover {
+    padding: 8px;
+  }
+
+  .movie-slide-mobile .movie-card:hover {
+    transform: scale(1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+    margin: 0 auto;
+  }
+
+  .nav-box {
+    max-width: 150px !important;
+    text-align: center;
+    color: #fff !important;
+  }
+
+  .navbar-dark .navbar-toggler,
+  .navbar-light .navbar-toggler {
+    border-color: #fff !important;
+  }
+
+  .navbar-dark .navbar-toggler-icon,
+  .navbar-light .navbar-toggler-icon {
+    filter: invert(0) !important;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    filter: invert(2) !important;
+  }
+
+  .nav-item .social-media-reel i {
+    margin: 0;
+  }
+
+  .movie-page-images {
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  footer .terms-link {
+    font-size: 13px;
+  }
+
+  .filters-container-2 {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .filters {
+    display: block !important;
+  }
+
+  .filters p {
+    width: 100%;
+    margin: 10px;
+  }
+
+
+  .nav-link.active {
+    border-bottom: 0px solid #fff;
+  }
+
+
+  .header {
+    padding: 20px 18px;
+  }
+
+  div#navbarHover {
+    padding: 8px;
+  }
+
+  .nav-box {
+    max-width: 150px !important;
+    text-align: center;
+    color: #fff !important;
+  }
+
+  .movie-headings .sectional-heading {
+    font-size: 14px;
+  }
+
+  .navbar-light .navbar-nav .nav-link .fa-search {
+    color: #afafaf !important;
+  }
+
+  .movie-card {
+    padding-top: 20px !important;
+    padding: 0 0px;
+    text-align: center;
+  }
+
+  .swiper-button-prev {
+    left: 18px !important;
+  }
+
+  .swiper-button-next {
+    right: 18px !important;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 42% !important;
+  }
+
+  .movie-headings {
+    padding: 0 15px;
+  }
+
+  .nav-item .social-media-reel i {
+    margin: 0;
+  }
+
+  .navbar-dark .navbar-toggler,
+  .navbar-light .navbar-toggler {
+    border-color: #fff !important;
+  }
+
+  .navbar-dark .navbar-toggler-icon,
+  .navbar-light .navbar-toggler-icon {
+    filter: invert(0) !important;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    filter: invert(2) !important;
+  }
+
+  .movie-page-images {
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .movie-page-images img {
+    width: auto;
+  }
+
+  .movie-page-images .movie-card {
+    padding-top: 4px !important;
+  }
+
+  .movie-page-images .movie-card:hover {
+    width: 211px !important;
+  }
+
+  .logo-color img,
+  .logo-white img {
+    height: 33px;
+  }
+
+  .dropdown.filter {
+    margin-left: 0;
+  }
+
+  .dropdown.filter .btn {
+    margin: 7px;
+  }
+
+  .sectional-padding-2 {
+    padding: 126px 0 0px;
+  }
+
+  .inner-padding {
+    padding: 15px;
+  }
+
+  .movie-review-image {
+    padding: 0;
+    text-align: center;
+  }
+
+  .movie-review-image img {
+    width: 100%;
+  }
+
+  .review-section {
+    border-radius: 5px;
+    background: linear-gradient(to right, #1F0A49E6, #1F0A49E6);
+  }
+
+  h2.movie-name-review {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  p.movie-realsedate {
+    float: left;
+  }
+
+  .review-section .social-media-reel i {
+    margin: 0 5px;
+  }
+
+  .movie-watchtrailer {
+    margin-top: 5px;
+    padding-left: 7px;
+  }
+
+  .movie-banner img {
+    min-height: auto;
+    width: 100%;
+  }
+
+  /* .movie-card-banner {
+    /*height: 170px !important;*/
+  /* }  */
+
+  .w-550 {
+    width: auto;
+  }
+
+  .banner-hover {
+    text-align: left;
+  }
+
+  .on-hover {
+    text-align: left;
+    left: 0rem;
+    padding-left: 10px;
+    height: 93.8%;
+    /* width: 13em; */
+    /* position: absolute; */
+    /* z-index: 999999; */
+  }
+
+  .movie-slide-mobile .movie-card:hover {
+    transform: scale(1);
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .code-profile {
+    margin-top: 8px;
+  }
+
+  .container-padding2 {
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .movie-card {
+    padding-top: 13px !important;
+  }
+
+  .w-550 {
+    width: 250px;
+    /*height: 200px;*/
+  }
+
+  .movie-slide-mobile .movie-card:hover {
+    width: 164px;
+  }
+
+  .on-hover h4 {
+    font-size: 16px;
+  }
+
+  .on-hover h6 {
+    font-size: 10px;
+  }
+
+  .on-hover {
+    padding-left: 6px;
+  }
+
+  .on-hover p a {
+    font-weight: 500;
+    font-size: 11px;
+    color: #D1D1D1;
+  }
+
+}
+
+@media only screen and (max-width: 380px) {
+  .w-550 {
+    width: 122px;
+  }
+
+  .movie-card-banner .w-550 {
+    width: auto;
+  }
+
+  .movie-slide-mobile .movie-card:hover {
+    width: 122px;
+  }
+
+}
+
+@media(min-width: 300px) and (max-width: 420px) {
+  .topheader p {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.commonsidermoviewsect {
+  width: 100%;
+}
+
+.commonsidermoviewsect .maincontainerdiv {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.listmaindiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listmaindiv .singleitemlist {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+.listmaindiv .singleitemlist .imagediv {
+  width: 100%;
+  height: 100%;
+}
+
+.listmaindiv .singleitemlist .imagediv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.listmaindiv .singleitemlist:hover .hoveroverlay {
+  visibility: visible;
+}
+
+.listmaindiv .singleitemlist .hoveroverlay {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.53);
+}
+
+.listmaindiv .singleitemlist .hoveroverlay a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+}
+
+.listmaindiv .singleitemlist .hoveroverlay a .title {
+  margin-bottom: 5px;
+  font-weight: 900;
+  font-size: 16px;
+  color: #fff;
+}
+
+.listmaindiv .singleitemlist .hoveroverlay a .details {
+  font-weight: 500;
+  font-size: 14px;
+  color: #D1D1D1;
+  margin-bottom: 5px;
+}
+
+.listmaindiv .singleitemlist .hoveroverlay .watchlist {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=custom.css.map */
+
+
+
+
+/* new CSS added By abhishek on 21/10/2022 */
+.sectional-heading,
+.sectional-heading:hover {
+  color: #fff;
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  /* text-decoration: underline; */
+}
+
+.leftLst1,
+.rightLst1 {
+  border-radius: 50%;
+  top: calc(50% - 20px);
+  padding: 0;
+  z-index: 1;
+}
+
+.right-left {
+  float: right;
+  color: white !important;
+  padding-right: 0px;
+  font-size: 30px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.right-left.nextfull0,
+.right-left.prevfull0,
+.right-left.nextfull1,
+.right-left.prevfull1,
+.right-left.nextfull2,
+.right-left.prevfull2,
+.right-left.nextfull3,
+.right-left.prevfull3,
+.right-left.nextfull4,
+.right-left.prevfull4 {
+  margin-left: 20px;
+}
+
+.owl-dots {
+  display: none;
+}
+
+.owl-nav .owl-prev,
+.owl-nav button.owl-next {
+  position: absolute;
+  top: calc(50% - 20px);
+  color: white !important;
+  font-size: 40px !important;
+  line-height: 1 !important;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: #00000000 !important;
+  color: #FFF;
+  text-decoration: none;
+  outline: none;
+}
+
+.commonsidermoviewsect {
+  width: 100%;
+  padding: 20px 0;
+}
+
+
+
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav button.owl-next {
+  right: -26px;
+}
+
+
+.listmaindiv .singleitemlist:hover {
+  transform: scale(1.08);
+}

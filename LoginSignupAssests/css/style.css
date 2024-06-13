@@ -1,0 +1,220 @@
+/* @import url(../fonts/poppins/poppins.css); */
+
+* {
+	font-family: 'popins', sans-serif;
+}
+
+.color-white{
+	color: white;
+}
+
+.fs-24 {
+	font-size: 24px;
+}
+
+.fs-20 {
+	font-size: 20px;
+}
+
+.fs-14 {
+	font-size: 14px;
+}
+
+.fs-16 {
+	font-size: 16px;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+.fw-700 {
+	font-weight: 700;
+}
+
+.tx-999 {
+	color: #999999;
+}
+
+.tx-11141A {
+	color: #11141A;
+	margin-bottom: 0;
+}
+
+.tx-354052 {
+	color: #354052;
+}
+
+.tx-333 {
+	color: #333333;
+}
+
+
+.main-word-page {
+	background: linear-gradient(to bottom, rgba(1, 1, 1, 0.75), rgba(70, 71, 71, 0.75)), url('../images/background.jpeg') !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed !important;
+	background-size: cover !important;
+	min-height: 100%;
+	height:900px;
+	overflow: auto;
+	padding: 40px 0;
+	display: flex;
+	align-items: center;
+
+}
+
+.form-control:focus {
+	box-shadow: 0 0 0 0 rgba(255, 0, 34, 0.25);
+}
+
+.form-check-input {
+	height: 24px;
+	width: 24px;
+}
+
+.word-login-page.login-block {
+	/* float: right; */
+	width: 100%;
+	/* padding: 4% 0; */
+}
+
+.logo-iamge {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.word-login-page .login-sec {
+	padding: 38px 55px;
+	position: relative;
+	width: 500px;
+	height: auto;
+	background:  rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 3px 33px #00000029;
+	border-radius: 6px;
+}
+
+.sign-up-sec {
+	min-height: 725px !important;
+	height: auto !important;
+}
+
+.word-login-page .login-sec h2 {
+
+	font-size: 35px;
+	margin-bottom: 10px;
+	letter-spacing: 0px;
+
+	font-weight: 600;
+	text-align: center;
+	color: rgb(229, 9, 20);
+	font-weight: 600;
+}
+
+.word-login-page .login-sec p.emailpara,
+.email-para {
+	font-size: 14px;
+	color: #999999;
+}
+
+.word-login-page label,
+.word-login-page label {
+	color: #c4c4c4;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 7px 0;
+}
+
+.form-control,
+.form-control:hover,
+.form-control:focus {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.25rem;
+	font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+	background: rgba(22, 22, 22, 0.7);
+	height: calc(3rem + 2px);
+	padding: 0.5rem 1rem ;
+	outline: none;
+	box-shadow: none;
+}
+
+.passwordfield input {
+	padding-right: 60px !important;
+}
+
+.field-icon {
+	float: right;
+	margin-left: -25px;
+	margin-top: -37px;
+	position: relative;
+	z-index: 2;
+	padding-right: 25px;
+	cursor: pointer;
+}
+
+.word-login-page .remember-me {
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	padding-left: 20px;
+	margin: 4px 0;
+}
+
+.word-login-page .forget-password {
+	font-size: 16px;
+	letter-spacing: 0px;
+	float: right;
+	margin: 11px 0;
+	color: rgb(229, 9, 20);
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.word-login-page .btn-login {
+	background: rgb(229, 9, 20);
+	color: #fff;
+	font-weight: 600;
+	border-radius: 0.25rem;
+	box-shadow: 0px 3px 6px #00000029;
+	margin: 10px 0 20px;
+}
+
+.customcheckbox input {
+	cursor: pointer;
+}
+
+.btn-signup {
+	margin: 20px 0 !important;
+}
+
+.w-300 {
+	width: 390px;
+	height: calc(3rem + 2px);
+}
+
+a.cus-anchor-word {
+	text-decoration: none;
+	text-transform: none;
+}
+
+.cus-anchor-word,
+.cus-anchor-word:hover {
+	color: rgb(229, 9, 20);
+	font-weight: 600;
+}
+
+.fs-16 {
+	font-size: 16px;
+}
+
+
+
